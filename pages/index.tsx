@@ -4,8 +4,8 @@ import styles from '../styles/Home.module.css';
 import ImageCanvas from "../components/ImageCanvas";
 
 
-const Home: NextPage = () => {  
-  
+const Home: NextPage = () => {
+
   return (
     <div className={styles.container}>
       <Head>
@@ -16,7 +16,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Use ORT Web
+          Onnx Image ML Benchmark
         </h1>
 
       <ImageCanvas width={240} height={240}/>
