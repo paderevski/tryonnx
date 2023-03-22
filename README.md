@@ -1,5 +1,20 @@
 # NextJS ONNX Runtime Web Template
 
+## Notes from Patrick
+
+To get this to work I had to
+
+```bash
+npm ci
+npm run build
+npm run dev
+```
+
+and also use Node 16.19.1 to accommodate the err  code: 'ERR_OSSL_EVP_UNSUPPORTED'. Probably better ways to go this but I
+didn't want to learn nextJS
+
+
+## Original Notes
 This is a NextJS template that is meant to be used to give you a starting point to doing inferencing on the client with PyTorch using ONNX Runtime web. This react template has all the helper functions and logic needed to process images and run inference in the browser for imagenet models like squeezenet, resnet and mobilenet.
 
 This template is configured with webpack, onnxruntime-web, react, typescript and dev environments for testing.
@@ -41,7 +56,7 @@ ONNX Runtime Web demo is an interactive demo portal showing real use cases runni
 
 ### How to Run Machine-Learning Models in the Browser using ONNX
 
-In this tutorial we will dive into onnxruntime-web by deploying a pre-trained PyTorch model to the browser. 
+In this tutorial we will dive into onnxruntime-web by deploying a pre-trained PyTorch model to the browser.
 
 - [How to Run Machine-Learning Models in the Browser using ONNX](https://hackernoon.com/how-to-run-machine-learning-models-in-the-browser-using-onnx)
 
@@ -61,8 +76,8 @@ contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additio
 
 ## Trademarks
 
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
-trademarks or logos is subject to and must follow 
+This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft
+trademarks or logos is subject to and must follow
 [Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
 Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
 Any use of third-party trademarks or logos are subject to those third-party's policies.
